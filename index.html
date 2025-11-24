@@ -383,16 +383,6 @@ Obtienes durante un segundo una lucidez total del partido. Puedes anticiparte a 
 
 <!-- SCRIPTS -->
 <script>
-/* PLUMAS */
-for(let i=0;i<40;i++){
-  let p=document.createElement("div");
-  p.classList.add("pluma");
-  p.style.width = p.style.height = (5 + Math.random()*18) + "px";
-  p.style.left = Math.random()*100 + "vw";
-  p.style.animationDuration = (6 + Math.random()*8)+"s";
-  document.body.appendChild(p);
-}
-
 /* AUDIO */
 let audio=document.getElementById("anthem");
 function playAudio(){
@@ -438,6 +428,7 @@ window.onload = animateBars;
 
 </body>
 </html>
+
 
 
 
